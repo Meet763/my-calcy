@@ -1,0 +1,102 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "numOne",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numTwo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "AddIntent",
+          "samples": [
+            "add {numOne} and {numTwo}",
+            "what is {numOne} plus {numTwo}",
+            "sum of {numOne} and {numTwo}",
+            "what is {numOne} and {numTwo} added"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numOne",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numTwo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SubtractIntent",
+          "samples": [
+            "subtract {numTwo} from {numOne}",
+            "what is {numOne} minus {numTwo}",
+            "difference between {numOne} and {numTwo}",
+            "what is {numOne} and {numTwo} subtracted"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numOne",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numTwo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplyIntent",
+          "samples": [
+            "multiply {numOne} and {numTwo}",
+            "what is {numOne} times {numTwo}",
+            "product of {numOne} and {numTwo}",
+            "what is {numOne} and {numTwo} multiplied"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numOne",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numTwo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivideIntent",
+          "samples": [
+            "divide {numOne} by {numTwo}",
+            "what is {numOne} divided by {numTwo}",
+            "quotient of {numOne} and {numTwo}",
+            "what is {numOne} by {numTwo}"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "my calculator"
+    }
+  }
+}
